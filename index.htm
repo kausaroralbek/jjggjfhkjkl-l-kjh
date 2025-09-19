@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinterest Style</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+      }
+
+      .pinterest {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        position: sticky;
+        top: 0;
+        padding: 20px;
+        height: 100vh;
+        background: #fff;
+        border-right: 1px solid #ddd;
+      }
+
+      .pinterest img {
+        width: 30px;
+      }
+
+      .main {
+        flex: 1;
+        padding: 20px;
+      }
+
+      .boxstart {
+        width: 800px;
+        display: flex;
+        margin: 0 auto 20px auto;
+        background-color: #d6d4d4;
+        border-radius: 25px;
+        padding: 8px 70px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+      .boxstart input {
+        flex: 1;
+        border: none;
+        background-color: #d6d4d4;
+        font-size: 16px;
+        outline: none;
+      }
+
+      .container {
+        column-count: 4;
+        column-gap: 15px;
+      }
+
+      .container div {
+        break-inside: avoid;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .container img {
+        width: 100%;
+        display: block;
+        border-radius: 10px;
+      }
+      .ptof {
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pinterest">
+      <img src="fd3a40c0-a448-4d08-b868-f5249e3f8a72.jpg" alt="" />
+      <img src="1f180b17-577b-4764-b7b5-1ec59c167f99.jpg" alt="" />
+      <img src="98cd8d31-78fa-47de-9ea2-97cbaeab165e.jpg" alt="" />
+      <img src="4bf06039-3a1a-4b53-a638-e15cef1dfdb5.jpg" alt="" />
+      <img src="3819ca1c-21b5-4f2f-a76e-c31ef87f2a08.jpg" alt="" />
+      <img src="76027cc0-903c-4425-8a60-8416570f858b.jpg" alt="" />
+      <img
+        style="margin-top: 140px"
+        src="488b06dc-9cd6-456d-8568-25ce42a2be3a.jpg"
+        alt=""
+      />
+    </div>
+
+    <div class="main">
+      <div class="ptof">
+        <div class="boxstart">
+          <input type="text" placeholder="Поиск" />
+        </div>
+        <img
+          style="
+            width: 80px;
+            height: 70px;
+            border-radius: 50%;
+            margin-top: -20px;
+          "
+          src="13bd2a4d-7f0a-4fd0-b267-1edc6b40bad9.jpg"
+          alt="search"
+        />
+      </div>
+      <div class="container">
+        <div><img src="0d9bd0c7-59ff-46e8-92ef-96257b72f190.jpg" alt="" /></div>
+        <div><img src="2bd8ba76-ebfa-4707-beba-9d03fe3743d6.jpg" alt="" /></div>
+        <div><img src="3bd2577c-9df6-418c-917f-c22498e46df5.jpg" alt="" /></div>
+        <div><img src="9c9a9d14-4520-444b-afa3-be8458481d4b.jpg" alt="" /></div>
+        <div><img src="15de1b7b-9a13-4bed-b606-0f34e4e69e38.jpg" alt="" /></div>
+        <div><img src="92bb8f87-8c9f-483c-81bc-9e8ed39ba0eb.jpg" alt="" /></div>
+        <div><img src="445efde3-c7ef-4d34-a9fc-247e9f6161e5.jpg" alt="" /></div>
+        <div><img src="579ca498-9816-4136-82ee-dbbb63edbe36.jpg" alt="" /></div>
+        <div><img src="2801c1c0-36b7-4482-b982-a658071f018a.jpg" alt="" /></div>
+        <div><img src="04561a5f-fe40-4085-bddd-8f105f597f84.jpg" alt="" /></div>
+        <div><img src="42028d17-9c66-4120-b52e-0f395cc6d2cb.jpg" alt="" /></div>
+        <div><img src="64233e9f-429c-498e-b078-80c0840d2450.jpg" alt="" /></div>
+        <div><img src="074877a5-8936-4b17-8c43-427b28b3f9d3.jpg" alt="" /></div>
+        <div><img src="90258ac4-743e-47ce-b9fb-e907d3bdab2a.jpg" alt="" /></div>
+        <div><img src="bd1fd961-cd1d-4bfc-ab5f-a8c96f3502d9.jpg" alt="" /></div>
+        <div><img src="bfc0f4ec-6790-41d7-b1a7-9fb4dfbd318b.jpg" alt="" /></div>
+        <div><img src="d3e75450-d7a5-4d73-af19-403655db4db6.jpg" alt="" /></div>
+        <div><img src="d82e41c1-40c8-4ed1-b973-76d42191fb55.jpg" alt="" /></div>
+        <div><img src="e114d8c4-c0fd-458f-8b28-e3866551c7d2.jpg" alt="" /></div>
+        <div><img src="e326c681-7a2c-44a3-a4fb-45a4a6b9ebeb.jpg" alt="" /></div>
+        <div><img src="e88465dd-322b-47c3-888a-cd62619a7627.jpg" alt="" /></div>
+        <div><img src="eaac7858-7fda-4018-b7c1-9bf49f0ac05e.jpg" alt="" /></div>
+        <div><img src="f33d3ae9-0770-43ee-8660-428374ac2809.jpg" alt="" /></div>
+        <div><img src="fff9b69c-6d37-4182-8b75-f4e4198cd861.jpg" alt="" /></div>
+        <div><img src="Mercedes-Benz 190 SL (W121).jpg" alt="" /></div>
+        <div><img src="Reception room.jpg" alt="" /></div>
+      </div>
+    </div>
+  </body>
+</html>
